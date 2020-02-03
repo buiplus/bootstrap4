@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------------HEADER---------------- */
+#header{
+   
+    background: #363d41;
+    padding: 10px 0;
+}
+#header .header__left i{
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+
+#header .header__left i:hover{
+    color: rgb(26, 125, 158);
+}
+#header .header__left i:nth-child(3):hover{
+    color: crimson;
+}
+
+/* -----------------END-------------------- */
+
+/* ------------------------NAVBAR---------------- */
+
+#navbar__menu{
+    padding: 0 10%;
+}
+
+#navbar__menu .navbar-toggler {
+    background: #7f67f8;
+    color: black;
+    font-size: 20px;
+}
+#navbar__menu .navbar-toggler-icon{
+    width: 17px;
+    height: 17px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+#navbar__menu .navbar__logo{
+    color:#7f67f8;
+    font-size: 30px;
+}
+
+#myNavbar .navbar-nav .nav-item a{
+    font-size: 12px;
+    font-weight: 700;
+}
+#navbar__menu span{
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #666;
+}
+#myNavbar .navbar-nav .nav-item.active a{
+    color: #7f67f8;
+}
+#myNavbar .navbar-nav .nav-item:hover a{
+    color: #7f67f8;
+   
+}
+#myNavbar .dropdown-menu{
+    padding: 0;
+}
+/* --------------------------END--------------------- */
+
+/* -------------------CAROUSEL---------------------- */
+#myCarousel__content .carousel-indicators li{
+    position: relative;
+   width: 12px;
+   height: 12px;
+   background: #7f67f8;
+   border-radius: 50%;
+   line-height: 10px;
+   border-top: 0;
+   border-bottom: 0;
+   bottom: 100px;
+    
+}
+
+#myCarousel__content .carousel-indicators li.active{
+    background: white;
+}
+.carousel__content{
+    max-height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.carousel__content img{
+    display: block;
+}
+
+.myCarousel__detail{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+.myCarousel__detail h1{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.myCarousel__detail p{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.myCarousel__detail ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+.myCarousel__detail ul li{
+    display: inline-block;
+    
+}
+
+.myCarousel__detail ul li a{
+    border:2px solid white; 
+    display: block;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+.myCarousel__detail ul li a:hover{
+    background: #7f67f8;
+    border: 2px solid #7f67f8;
+}
+.myCarousel__detail ul li.line a{
+    background: #7f67f8;
+    border: 2px solid #7f67f8;
+}
+
+.myCarousel__detail ul li.line a:hover{
+    background: transparent;
+    border:2px solid white;
+}
+
+
+
+/* ------------------------END------------------------- */
+/* ------------------------INTRO------------------------- */
+.section__title h1{
+    color: #2c363e;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.37);
+    font-size: 35px;
+}
+.section__title p{
+    color: #5e5e5e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    width: 70%;
+    margin:50px auto;
+}
+p{
+    margin-bottom: 0;
+}
+
+#intro .intro__line{
+    border-right:1px solid #e8e8e8;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#intro .intro__line i{
+    font-size: 40px;
+    color: #f97c69;
+}
+
+#intro .intro__line h4{
+    margin: 15px 0;
+    color: #151515;;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+#intro .intro__line p{
+    color: #777;
+    font-size: 15px;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin: 0px auto;
+}
+
+#intro .intro__line:nth-child(3){
+    border-right: none;
+}
+
+
+/* ------------------------END------------------------- */
+
+
+/* ------------------------CONTACT------------------------- */
+
+.contact{
+    background: url(../images/3.jpg) no-repeat center  center;
+    background-size: cover;
+    padding: 6em 0;
+    color: white;
+}
+.contact p{
+    margin-bottom: 0;
+}
+
+.contact .contact__item button{
+    padding: 5px 25px;
+    background: #7f67f8;
+    color: white;
+    border:none;
+    margin-top: 10px;
+}
+
+.contact .contact__item button:hover{
+    background: #f97c69;
+}
+
+/* ------------------------END------------------------- */
+/* ------------------------CLIENTS------------------------- */
+.client__title{
+    padding: 3em 0;
+    
+}
+
+.client__title h4{
+    font-size: 40px;
+    color: #2c363e;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+    line-height: 1.2em;
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    
+}
+.client__title p{
+    font-size: 15px;
+    color: #777;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.client__content{
+    margin-bottom: 3em;
+}
+
+.client__content h1{
+    font-size: 40px;
+    color: #f97c69; 
+    font-weight: 700;
+}
+.client__content h5{
+    font-size: 20px;
+    color: #2c363e;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.client__content span{
+    font-size: 15px;
+    margin-top: 0.8em;
+    color: #777;
+}
+/* ------------------------END------------------------- */
+/* ------------------------SERVICES------------------------- */
+.services{
+    background: url(../images/3.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 20px 0 40px 0;
+}
+.services h4{
+    color: white;
+}
+.services p{
+    color: white;
+}
+.services__content{
+    background: white;
+    
+}
+
+.services__item{
+    padding: 1em 0;
+
+}
+
+.services__item i{
+    font-size: 40px;
+}
+.services__item h6{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.services__item p{
+    margin: 1em auto;
+}
+.services__item:nth-child(1),.services__item:nth-child(3),.services__item:nth-child(5){
+    background: #f97c69;
+    color: white;
+}
+.services__item:nth-child(2) p,.services__item:nth-child(4) p,.services__item:nth-child(6) p{
+    color: black;
+}
+/* ------------------------END------------------------- */
+/* ------------------------CUSTOMERS------------------------- */
+.customers__item{
+    padding: 40px 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.customers__item img{
+    border-radius: 50%;
+    width: 150px;
+    background: #7f67f8;
+    padding: 5px;
+}
+
+
+.customers__item h3{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #2c363e;
+    margin: 20px 0;
+}
+
+.customers__item p{
+    width: 100%;
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5rem;
+    margin: 10px auto;
+}
+
+.customers .owl-nav .owl-prev, .customers .owl-nav .owl-next{
+    display: none;
+}
+
+.customers .owl-theme .owl-dots .owl-dot span{
+    background: #f97c69;
+}
+.customers .owl-theme .owl-dots .owl-dot.active span{
+    background: #ab1313;
+}
+.customers .owl-carousel .owl-item img{
+    width: 40%;
+    margin: auto;
+}
+/* ------------------------END------------------------- */
+/* -------------------------SUBSCRIBE------------------------ */
+
+.subscribe{
+    padding: 5rem 0;
+    background: #0b0c11;
+    margin: 70px  0 0 0;
+}
+
+.subscribe__left h3, .subscribe__middle h3 , .subscribe__right h3{
+    color: #f97c69;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+.subscribe__left p{
+    font-size: 1em;
+    line-height: 2em;
+    color: #bfbfbf;
+    letter-spacing: 1px;
+    margin-bottom: 2em;
+}
+
+.subscribe__left{
+    padding-right: 108px;
+}
+.subscribe .input-group input{
+    background: transparent;
+    height: 50px;
+    outline: none;
+    position: relative;
+}
+.subscribe .input-group span{
+    position: absolute;
+    top:0%;
+    right:0%;
+    width: 50px;
+    height: 100%;
+    background:#7f67f8; 
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
+    border-left: none;
+    color: white;
+    font-weight: 400;
+}
+
+.subscribe__middle ul,.subscribe__right ul{
+    list-style: none;
+}
+
+.subscribe__middle ul li,.subscribe__right ul li{
+    margin: 15px 0 10px 0;
+}
+
+.subscribe__middle ul li a{
+    color: white;
+    text-decoration: none;
+}
+.subscribe__right{
+    color: #bfbfbf;
+}
+.subscribe__right ul li span{
+    color: #f97c69;
+    font-size: 1.3em;
+    padding-right: 10px;
+}
+
+
+.footer{
+    color: #fff;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0;
+    background: #252525;
+    padding: 16px 0;
+}
+.footer a{
+    color: white;
+}
+/* ------------------------END------------------------- */
+
+#toTop{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 4%;
+    bottom: 20px;
+    border:3px solid #f97c69;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+#toTop.cd-top--is-visible{
+    opacity: 1;
+    visibility: visible;
+}
+
+#toTop i{
+    font-size: 20px;
+    color: #f97c69;
+    font-weight: bold;
+}
+
+
+
+
+
+/* -----------------------RESONSIVE------------------- */
+
+@media (max-width:576px){
+
+    #header{
+        padding: 10px 40px;
+    }
+    #myNavbar{
+        background: black;
+    }
+    #myNavbar .navbar-nav .nav-item a{
+        text-align: center;
+        color: white;
+    }
+    .myCarousel__detail{
+        width: 100%;
+    }
+    .myCarousel__detail h1{
+       font-size: 20px;
+    }
+    .myCarousel__detail p{
+        font-size: 13px;
+        padding: 5px 30px;
+    }
+    #myCarousel__content .carousel-indicators li{
+        bottom: 35px;
+    }
+    .section__title .section__line{
+        width: 80%;
+        margin:0 auto;
+        height: 1px;
+        background: #e8e8e8;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .section__title h1{
+        font-size: 25px;
+    }
+    .section__title p{
+        font-size: 14px;
+    }
+    #intro .intro__line i{
+        font-size: 20px;
+    }
+    #intro .intro__line h4{
+        font-size: 20px;
+        margin:5px 0;
+    }
+    #intro .intro__line p{
+        font-size: 10px;
+        line-height: 1.2rem;
+    }
+
+    .contact .contact__title h1{
+        font-size: 26px;
+    }
+    .client__title h4{
+        font-size: 30px;
+    }
+    .customers h4{
+        font-size: 27px;
+    }
+    .subscribe__middle{
+        margin-top: 30px;
+    }
+
+    .navbar-nav{
+        width: 80%;
+        z-index: 10;
+        background: #0b0c11;
+        text-align: center;
+        transition: all 1.5s;
+        text-align: center;
+       margin: auto;
+        
+    }
+    #myNavbar{
+        z-index: 100;
+        position: absolute;
+        top: 90%;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width:400px){
+    #myCarousel__content .carousel-indicators li{
+        bottom: 10px;
+    }
+    .myCarousel__detail p{
+        padding: 2px 15px;
+    }
+}
+
+@media (min-width:320px){
+    .myCarousel__detail h1{
+        font-size: 15px;
+    }
+    .myCarousel__detail p{
+        font-size: 12px;
+    }
+    .myCarousel__detail p{
+        padding: 0px 5px;
+    }
+    #myCarousel__content .carousel-indicators li{
+        bottom: 0;
+    }
+}
